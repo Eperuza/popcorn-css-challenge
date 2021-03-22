@@ -3,3 +3,99 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body{
+  font-family: Arial;
+  margin: 0;
+}
+
+
+.navbar {
+  /* stuff */
+  background-color: #FFDBAA;
+  height: 100px;
+  width: 100%;
+  padding: 20px 20px 0px 20px;
+
+}
+
+.navbar .title {
+  /* stuff */
+  font-size: 28px;
+  color: #553100;
+  font-weight: bold;
+  float: left;
+  width: 50%;
+}
+
+.navbar .navlinks{
+    /*coming back to ya*/
+    
+    
+    
+}
+.navbar .nav-link {
+  /* stuff */
+  background-color: #805215;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 14px;
+  padding: 5px;
+  
+  
+}
+
+main{
+  background-color: #D4A76A;
+  border-top: 1px solid black;
+  
+}
+
+.cards .card {
+  /* stuff */ 
+  float: left;
+  width: 30%;
+ 
+
+  
+}
+.cards{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    
+}
+
+.cards:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.card {
+  background-color: white;
+  text-align: center;
+  margin: 5px;
+  
+}
+
+.card-link {
+  background-color: #805215;
+  border: none;
+  display: inline-block;
+  width: 100%;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.card-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.about .card{
+
+}

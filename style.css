@@ -77,7 +77,7 @@ main{
 .card {
   background-color: white;
   text-align: center;
-  margin: 5px;
+  margin: 1%;
   
 }
 
@@ -85,8 +85,11 @@ main{
   background-color: #805215;
   border: none;
   display: inline-block;
-  width: 100%;
-  margin: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
   border: 1px solid black;
   padding: 5px;
 }
@@ -96,6 +99,12 @@ main{
   color: white;
 }
 
-.about .card{
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-bottom: 5%;
+    padding: 5px;
 
 }
